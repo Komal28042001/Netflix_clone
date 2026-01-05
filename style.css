@@ -537,3 +537,178 @@ margin-top:120px;
 .footer-recaptcha a:hover {
   text-decoration: underline;
 }
+/* ===========================
+   TABLET (max-width: 900px)
+=========================== */
+@media (max-width: 900px) {
+
+  /* HERO TEXT */
+  .hero-content {
+    max-width: 90%;
+    margin-top: 100px;
+  }
+
+  .hero-content h1 {
+    font-size: 32px;
+  }
+
+  .hero-content p,
+  .hero-content h3 {
+    font-size: 15px;
+  }
+
+  /* INPUT + BUTTON */
+  .input-wrapper {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .get-started-btn {
+    width: 100%;
+  }
+
+  /* SLIDER */
+  .card {
+    width: 130px;
+    height: 200px;
+  }
+
+  .rank {
+    font-size: 64px;
+  }
+
+  /* FEATURE CARDS */
+  .section {
+    grid-template-columns: 1fr;
+  }
+
+  /* FAQ */
+  .faq-question {
+    font-size: 20px;
+    padding: 20px;
+  }
+
+  .faq-answer p {
+    font-size: 18px;
+  }
+
+  /* FOOTER */
+  .footer-links {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ===========================
+   MOBILE (max-width: 600px)
+=========================== */
+@media (max-width: 600px) {
+
+  /* NAVBAR */
+  .nav-container {
+    padding: 14px 16px;
+  }
+
+  .logo {
+    height: 30px;
+  }
+
+  .lang-wrapper {
+    padding: 4px 6px;
+  }
+
+  .signin {
+    padding: 6px 10px;
+    font-size: 13px;
+  }
+
+  /* HERO */
+  .hero {
+    height: auto;
+    padding-bottom: 40px;
+  }
+
+  .hero-content {
+    margin-top: 80px;
+    gap: 12px;
+  }
+
+  .hero-content h1 {
+    font-size: 26px;
+    line-height: 1.2;
+  }
+
+  .hero-content p {
+    font-size: 14px;
+  }
+
+  .hero-content h3 {
+    font-size: 14px;
+  }
+
+  /* INPUT */
+  .nf-input input {
+    height: 50px;
+    font-size: 14px;
+  }
+
+  .get-started-btn {
+    height: 48px;
+    font-size: 16px;
+  }
+
+  /* SLIDER */
+  .slider {
+    gap: 20px;
+  }
+
+  .card {
+    width: 110px;
+    height: 170px;
+  }
+
+  .rank {
+    font-size: 52px;
+  }
+
+  /* FEATURE SECTION */
+  .card2 {
+    padding: 16px;
+    padding-bottom: 60px;
+  }
+
+  .card2 h2 {
+    font-size: 18px;
+  }
+
+  .card2 p {
+    font-size: 14px;
+  }
+
+  .smallimg {
+    width: 70px;
+    height: 45px;
+  }
+
+  /* FAQ */
+  .faq-question {
+    font-size: 18px;
+  }
+
+  .faq-question .icon {
+    font-size: 36px;
+  }
+
+  .faq-answer p {
+    font-size: 16px;
+  }
+
+  /* FOOTER */
+  .footer-links {
+    grid-template-columns: 1fr;
+  }
+
+  .footer {
+    font-size: 13px;
+  }
+}
+
