@@ -37,14 +37,6 @@ Responsive behavior is handled using CSS media queries.
 
 ---
 
-## 🚀 Live Demo
-
-If deployed using **GitHub Pages**, you can add your link here:
-
-👉 **Live Site:** https://Komal28042001/Netflix_Clone/
-
----
-
 ## 📸 Preview
 
 You can add screenshots here later if you want.
